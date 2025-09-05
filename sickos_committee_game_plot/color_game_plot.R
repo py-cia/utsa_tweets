@@ -3,7 +3,7 @@ library(tidyverse)
 # Color Game from Sickos Committee
 
 # Reddit List -------------------------------------------------------------
-# Gonna do Go5: Boise State, UTSA, Bowling Green, UTEP, Sam Houston, 
+# Gonna do Go5: Boise State, UTSA, Bowling Green, Sam Houston 
 # Boise State: D64309, UTSA:F15A22, Bowling Green:FD5000, Sam Houston: F56423
 
 orange_df <- data.frame(school = c("Boise State", "UTSA", "Bowling Green", "Sam Houston"),
@@ -26,6 +26,7 @@ ggplot(df, aes(x = x, y = 1, fill = color, label = label)) +
   theme(plot.margin = margin(10, 10, 10, 10))
 
 # Answer: A: Boise State, B: UTSA, C: Bowling Green, D: Sam Houston
+
 
 
 
